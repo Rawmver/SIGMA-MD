@@ -58,7 +58,7 @@ global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; /
 
 
 //===========================[COMPULSORY VARIABLES]================================
-global.owner = process.env.OWNER_NUMBER  || '92382990885' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '923082990885' ;  // ADD YOUR NUMBER WITHOUT +
 global.mongodb = process.env.MONGODB_URI || "" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
 //=================================================================================
@@ -66,8 +66,8 @@ global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZO
 
 //======================[YOUR CHOICE, CHANGE OR LEAVE IT SAME]=====================
 global.sudo  =  process.env.SUDO || "923082990885" ;          // DON'T REMOVE
-global.mztit = process.env.MZTIT ||"Lucifer",               // ADD YOUR TITLE, ONE WORD WILL BE MORE BETTER
-global.gurl  = 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1' ; 
+global.mztit = process.env.MZTIT ||"𝐿𝑈𝐶𝛪𝐹𝛯𝑅",               // ADD YOUR TITLE, ONE WORD WILL BE MORE BETTER
+global.gurl  = '' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6e2057568db8926.jpg' ;
 //=================================================================================
 
@@ -76,18 +76,18 @@ module.exports = {
 
   //==============================[COMPULSORY]=====================================
   sessionName: process.env.SESSION_ID || '',              // PUT YOUR SESSION ID
-  botname: process.env.BOT_NAME       || 'Lucifer',         // ADD YOUR BOT NAME
-  ownername:  process.env.OWNER_NAME  || `Lucifer`, // ADD YOUR NAME
+  botname: process.env.BOT_NAME       || '𝙇𝙐𝘾𝞘𝙁𝞢𝞒',         // ADD YOUR BOT NAME
+  ownername:  process.env.OWNER_NAME  || '𝐿𝑈𝐶𝛪𝐹𝛯𝑅', // ADD YOUR NAME
   HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
   WORKTYPE: process.env.WORKTYPE      || 'public',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
   //================================================================================
 
 
   //==============================[WHAT'SAPP FEATURES]==============================
-  author:  process.env.PACK_AUTHER  || 'luxifer',      // ADD YOUR STICKER AUTHOR NAME
+  author:  process.env.PACK_AUTHER  || '𝐿𝑈𝐶𝛪𝐹𝛯𝑅',      // ADD YOUR STICKER AUTHOR NAME
   status_view : process.env.AUTO_STATUS_VIEW   || 'false',    // IF IT TRUE IT AUTOMATICALLY VIEWS YOUR STATUSES
   status_saver : process.env.AUTO_STATUS_SAVER || 'false', // IF TRUE IT AUTOMATICALLY DOWNLOADS YOUR STATUSES AND SEND IN YOUR INBOX
-  packname:  process.env.PACK_NAME  || "Lucifer" ,          // ADD YOUR STICKER PACKNAME
+  packname:  process.env.PACK_NAME  || "𝙇𝙐𝘾𝞘𝙁𝞢𝞒" ,          // ADD YOUR STICKER PACKNAME
   autoreaction: process.env.AUTO_REACTION || 'false',    // IF TRUE IT WILL REACT TO YOUR MESSAGES
   readmessage: process.env.READ_MESSAGE   || 'false',      // IF TRUE IT WILL SEEN ALL YOUR MESSAGES
   disablepm: process.env.DISABLE_PM || "false",        // IF TRUE IT WILL DISABLE THE BOT IN YOUR PM
@@ -113,7 +113,7 @@ module.exports = {
   BRANCH: process.env.BRANCH   || 'Main',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
-  caption :process.env.CAPTION || "*• ѕιgмα-м∂ мυℓтι-∂єνι¢є*\n*• ωнαтѕαρρ вσт* ",
+  caption :process.env.CAPTION || "*• 𝙇𝙐𝘾𝞘𝙁𝞢𝞒*\n*• ωнαтѕαρρ вσт* ",
   LANG: process.env.THEME || "SIGMA_MD",
   VERSION: process.env.VERSION || '𝚅.𝟷.𝟻.𝟹'
   //=================================================================================
